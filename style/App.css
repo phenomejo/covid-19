@@ -1,0 +1,126 @@
+.ant-layout-content {
+  padding: 0 25px;
+  margin-top: 0px;
+}
+
+.container {
+  padding: 24px;
+  padding-bottom: 80px;
+  min-height: calc(100vh - 20px);
+  min-height: 100vh;
+  /* background: rgb(132, 132, 132); */
+  /* background: rgb(255, 255, 255); */
+}
+
+/* .container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.page-content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.ant-card-head-title {
+  font-size: 25px;
+}
+
+.ant-card-head-wrapper {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.ant-card-extra > img {
+  width: 50px;
+  height: 50px;
+}
+
+.ant-col {
+  padding: 8px;
+}
+
+.static {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.ant-statistic {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.ant-statistic-title {
+  font-size: 24px;
+}
+
+.ant-statistic-content {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.card-tomato {
+  background: tomato;;
+}
+
+.ant-card {
+  border-radius: 20px;
+  min-width: 150px;
+}
+
+.ant-card-body {
+  padding: 12px;
+}
+
+.card-goldenrod {
+  background: goldenrod;
+}
+
+.card-lightgreen {
+  background: lightgreen;
+}
+
+.card-orangered {
+  background: orangered;
+}
+
+.ant-layout-footer {
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  bottom: 0;
+  padding: 0px;
+}
+
+.mark {
+  color: white; 
+  background: #e63232;
+  width: 60px;
+  height: 60px;
+  opacity: 0.8;
+  padding: 15px 15px;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  .page-content {
+    width: 100%;
+  }
+}
