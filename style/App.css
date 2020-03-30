@@ -119,6 +119,13 @@ h1 {
   cursor: pointer;
 }
 
+.ant-spin {
+  width: 95%;
+  line-height: calc(100vh - 120px);
+  vertical-align: middle;
+  margin: auto;
+}
+
 @media only screen and (max-width: 992px) {
   .page-content {
     width: 100%;

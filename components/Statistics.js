@@ -41,7 +41,7 @@ const Statistics = ({ covidTh, dataLine, dataDonut,center, zoom, country }) => {
   return (
     <>
       <Row gutter={12}>
-        <Col md={{ span: 12 }} xl={{ span: 12 }} offset={6}>
+        <Col md={{ span: 12, offset: 6 }} xl={{ span: 12, offset: 6 }}>
           <Row gutter={12}>
             { renderData() }
           </Row>
@@ -90,23 +90,3 @@ const Statistics = ({ covidTh, dataLine, dataDonut,center, zoom, country }) => {
 }
 
 export default Statistics
-
-//       {/* </Card> */}
-      // <div style={{ height: '100vh', width: '100%' }}>
-      //   <GoogleMapReact
-      //     bootstrapURLKeys={{ key: 'AIzaSyClIV8CuVGsLzFapU2QeZPlM9XEuDMeq58' }}
-      //     defaultCenter={center}
-      //     defaultZoom={zoom}
-      //   >
-      //     <AnyReactComponent
-      //       lat={59.955413}
-      //       lng={30.337844}
-      //       text="My Markerssssssssssssssssssssss"
-      //     />
-      //     <AnyReactComponent
-      //       lat={15.870032}
-      //       lng={100.992541}
-      //       text="Hellow Bangkok"
-      //     />
-      //   </GoogleMapReact>
-      // </div> 
