@@ -42,7 +42,7 @@ const Index = () => {
           { label: 'จำนวนผู้ติดเชื้อ', value: v.cases.total, new: `(เพิ่มขึ้น ${v.cases.new.substring(v.cases.new.indexOf('+') + 1)})`, color: 'card-tomato' },
           { label: 'กำลังรักษา', value: v.cases.active, color: 'card-goldenrod' },
           { label: 'รักษาหายแล้ว', value: v.cases.recovered, color: 'card-lightgreen' },
-          { label: 'เสียชีวิต', value: v.deaths.total, new: `(เพิ่มขึ้น ${v.deaths.new.substring(v.deaths.new.indexOf('+') + 1)})`, color: 'card-orangered' }
+          { label: 'เสียชีวิต', value: v.deaths.total, new: !v.deaths.new ? null : `(เพิ่มขึ้น ${v.deaths.new.substring(v.deaths.new.indexOf('+') + 1)})`, color: 'card-orangered' }
         )
       })
   
